@@ -1,0 +1,14 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.m" controllerName="asesoria2.asesoria2.controller.main" displayBlock="true">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+				    <Input xmlns="sap.m" value="{Formulario>/Rut}" id="input0" placeholder="1111111-1"/>
+				    <Input xmlns="sap.m" value="{Formulario>/Nombre}" id="input1"/>
+				    <Input xmlns="sap.m" value="{Formulario>/Apellido}" id="input2"/>
+				    <Button xmlns="sap.m" text="Crear" id="button0" press="onCrear"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

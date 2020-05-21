@@ -1,0 +1,63 @@
+{
+  "welcomeFile": "/webapp/index.html",
+  "routes": [
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources",
+        "version": "1.38.45"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.38.45"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/webapp/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources",
+        "version": "1.38.45"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/webapp/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.38.45"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/CLINICA_105",
+      "target": {
+        "type": "destination",
+        "name": "CLINICA_105"
+      },
+      "description": "ABAP Connection (Clinica)"
+    },
+    {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "CLINICA_105",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "ABAP Connection (Clinica)"
+    }
+  ],
+  "sendWelcomeFileRedirect": true
+}
